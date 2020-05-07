@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "demo-flow",
+      "public": "dist/demo-flow",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

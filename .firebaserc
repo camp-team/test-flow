@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "test-flow-f82b2": {
+      "hosting": {
+        "demo-flow": [
+          "test-flow-f82b2"
+        ]
+      }
+    }
+  }
+}
